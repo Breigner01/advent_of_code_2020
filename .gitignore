@@ -1,0 +1,6 @@
+# Editor temp files and folders
+
+.vscode/
+.idea/
+*~
+\#*#
