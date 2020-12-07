@@ -28,10 +28,8 @@ for i in range(len(steps)):
 
     for j in range(len(my_map)):
         my_map[j] = ''.join(my_map[j])
-    print('\n'.join(my_map))
-    print(encoutered_trees)
     my_map = text.split("\n")
     for j in range(len(my_map)):
         my_map[j] = list(my_map[j])
 
-    print(encoutered_trees[0] * encoutered_trees[1] * encoutered_trees[2] * encoutered_trees[3] * encoutered_trees[4])
+print(encoutered_trees[0] * encoutered_trees[1] * encoutered_trees[2] * encoutered_trees[3] * encoutered_trees[4])

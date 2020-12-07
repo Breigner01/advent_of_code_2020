@@ -24,7 +24,4 @@ while y < max_y:
     if x >= max_x:
         x -= max_x
 
-for i in range(len(my_map)):
-    my_map[i] = ''.join(my_map[i])
-print('\n'.join(my_map))
 print(encoutered_trees)
